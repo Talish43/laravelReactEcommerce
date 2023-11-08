@@ -5,95 +5,7 @@ function Home() {
   return (
       <Wrapper>
         <div className="row">
-          <div className="col-lg-8 d-flex align-items-strech">
-            <div className="card w-100">
-              <div className="card-body">
-                <div className="d-sm-flex d-block align-items-center justify-content-between mb-9">
-                  <div className="mb-3 mb-sm-0">
-                    <h5 className="card-title fw-semibold">Sales Overview</h5>
-                  </div>
-                  <div>
-                    <select className="form-select">
-                      <option value={1}>March 2023</option>
-                      <option value={2}>April 2023</option>
-                      <option value={3}>May 2023</option>
-                      <option value={4}>June 2023</option>
-                    </select>
-                  </div>
-                </div>
-                <div id="chart" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="row">
-              <div className="col-lg-12">
-                {/* Yearly Breakup */}
-                <div className="card overflow-hidden">
-                  <div className="card-body p-4">
-                    <h5 className="card-title mb-9 fw-semibold">Yearly Breakup</h5>
-                    <div className="row align-items-center">
-                      <div className="col-8">
-                        <h4 className="fw-semibold mb-3">$36,358</h4>
-                        <div className="d-flex align-items-center mb-3">
-                              <span className="me-1 rounded-circle bg-light-success round-20 d-flex align-items-center justify-content-center">
-                                <i className="ti ti-arrow-up-left text-success" />
-                              </span>
-                          <p className="text-dark me-1 fs-3 mb-0">+9%</p>
-                          <p className="fs-3 mb-0">last year</p>
-                        </div>
-                        <div className="d-flex align-items-center">
-                          <div className="me-4">
-                            <span className="round-8 bg-primary rounded-circle me-2 d-inline-block" />
-                            <span className="fs-2">2023</span>
-                          </div>
-                          <div>
-                            <span className="round-8 bg-light-primary rounded-circle me-2 d-inline-block" />
-                            <span className="fs-2">2023</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-4">
-                        <div className="d-flex justify-content-center">
-                          <div id="breakup" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                {/* Monthly Earnings */}
-                <div className="card">
-                  <div className="card-body">
-                    <div className="row alig n-items-start">
-                      <div className="col-8">
-                        <h5 className="card-title mb-9 fw-semibold"> Monthly Earnings </h5>
-                        <h4 className="fw-semibold mb-3">$6,820</h4>
-                        <div className="d-flex align-items-center pb-1">
-                              <span className="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
-                                <i className="ti ti-arrow-down-right text-danger" />
-                              </span>
-                          <p className="text-dark me-1 fs-3 mb-0">+9%</p>
-                          <p className="fs-3 mb-0">last year</p>
-                        </div>
-                      </div>
-                      <div className="col-4">
-                        <div className="d-flex justify-content-end">
-                          <div className="text-white bg-secondary rounded-circle p-6 d-flex align-items-center justify-content-center">
-                            <i className="ti ti-currency-dollar fs-6" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="earning" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
+          <h1>Dashboard</h1>
           <div className="col-lg-4 d-flex align-items-stretch">
             <div className="card w-100">
               <div className="card-body p-4">
@@ -115,7 +27,7 @@ function Home() {
                       <span className="timeline-badge border-2 border border-info flex-shrink-0 my-8" />
                       <span className="timeline-badge-border d-block flex-shrink-0" />
                     </div>
-                    <div className="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="javascript:void(0)" className="text-primary d-block fw-normal">#ML-3467</a>
+                    <div className="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="#" className="text-primary d-block fw-normal">#ML-3467</a>
                     </div>
                   </li>
                   <li className="timeline-item d-flex position-relative overflow-hidden">
@@ -132,7 +44,7 @@ function Home() {
                       <span className="timeline-badge border-2 border border-warning flex-shrink-0 my-8" />
                       <span className="timeline-badge-border d-block flex-shrink-0" />
                     </div>
-                    <div className="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="javascript:void(0)" className="text-primary d-block fw-normal">#ML-3467</a>
+                    <div className="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a href="#" className="text-primary d-block fw-normal">#ML-3467</a>
                     </div>
                   </li>
                   <li className="timeline-item d-flex position-relative overflow-hidden">
@@ -264,18 +176,18 @@ function Home() {
           <div className="col-sm-6 col-xl-3">
             <div className="card overflow-hidden rounded-2">
               <div className="position-relative">
-                <a href="javascript:void(0)"><img src="assets/backend/assets/images/products/s4.jpg" className="card-img-top rounded-0" alt="..." /></a>
-                <a href="javascript:void(0)" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
+                <a href="#"><img src="assets/backend/assets/images/products/s4.jpg" className="card-img-top rounded-0" alt="..." /></a>
+                <a href="#" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
               <div className="card-body pt-3 p-4">
                 <h6 className="fw-semibold fs-4">Boat Headphone</h6>
                 <div className="d-flex align-items-center justify-content-between">
                   <h6 className="fw-semibold fs-4 mb-0">$50 <span className="ms-2 fw-normal text-muted fs-3"><del>$65</del></span></h6>
                   <ul className="list-unstyled d-flex align-items-center mb-0">
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a href="#"><i className="ti ti-star text-warning" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -284,18 +196,18 @@ function Home() {
           <div className="col-sm-6 col-xl-3">
             <div className="card overflow-hidden rounded-2">
               <div className="position-relative">
-                <a href="javascript:void(0)"><img src="assets/backend/assets/images/products/s5.jpg" className="card-img-top rounded-0" alt="..." /></a>
-                <a href="javascript:void(0)" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
+                <a href="#"><img src="assets/backend/assets/images/products/s5.jpg" className="card-img-top rounded-0" alt="..." /></a>
+                <a href="#" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
               <div className="card-body pt-3 p-4">
                 <h6 className="fw-semibold fs-4">MacBook Air Pro</h6>
                 <div className="d-flex align-items-center justify-content-between">
                   <h6 className="fw-semibold fs-4 mb-0">$650 <span className="ms-2 fw-normal text-muted fs-3"><del>$900</del></span></h6>
                   <ul className="list-unstyled d-flex align-items-center mb-0">
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a href="#"><i className="ti ti-star text-warning" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -304,18 +216,18 @@ function Home() {
           <div className="col-sm-6 col-xl-3">
             <div className="card overflow-hidden rounded-2">
               <div className="position-relative">
-                <a href="javascript:void(0)"><img src="assets/backend/assets/images/products/s7.jpg" className="card-img-top rounded-0" alt="..." /></a>
-                <a href="javascript:void(0)" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
+                <a href="#"><img src="assets/backend/assets/images/products/s7.jpg" className="card-img-top rounded-0" alt="..." /></a>
+                <a href="#" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
               <div className="card-body pt-3 p-4">
                 <h6 className="fw-semibold fs-4">Red Valvet Dress</h6>
                 <div className="d-flex align-items-center justify-content-between">
                   <h6 className="fw-semibold fs-4 mb-0">$150 <span className="ms-2 fw-normal text-muted fs-3"><del>$200</del></span></h6>
                   <ul className="list-unstyled d-flex align-items-center mb-0">
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a href="#"><i className="ti ti-star text-warning" /></a></li>
                   </ul>
                 </div>
               </div>
@@ -324,18 +236,18 @@ function Home() {
           <div className="col-sm-6 col-xl-3">
             <div className="card overflow-hidden rounded-2">
               <div className="position-relative">
-                <a href="javascript:void(0)"><img src="assets/backend/assets/images/products/s11.jpg" className="card-img-top rounded-0" alt="..." /></a>
-                <a href="javascript:void(0)" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
+                <a href="#"><img src="assets/backend/assets/images/products/s11.jpg" className="card-img-top rounded-0" alt="..." /></a>
+                <a href="#" className="bg-primary rounded-circle p-2 text-white d-inline-flex position-absolute bottom-0 end-0 mb-n3 me-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Add To Cart"><i className="ti ti-basket fs-4" /></a>                    </div>
               <div className="card-body pt-3 p-4">
                 <h6 className="fw-semibold fs-4">Cute Soft Teddybear</h6>
                 <div className="d-flex align-items-center justify-content-between">
                   <h6 className="fw-semibold fs-4 mb-0">$285 <span className="ms-2 fw-normal text-muted fs-3"><del>$345</del></span></h6>
                   <ul className="list-unstyled d-flex align-items-center mb-0">
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className="me-1" href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
-                    <li><a className href="javascript:void(0)"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a className="me-1" href="#"><i className="ti ti-star text-warning" /></a></li>
+                    <li><a href="#"><i className="ti ti-star text-warning" /></a></li>
                   </ul>
                 </div>
               </div>

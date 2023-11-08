@@ -9,7 +9,7 @@ function Wrapper({children}) {
                 {/*  Main wrapper */}
                 <div className="body-wrapper">
                     <Header/>
-                    <div className="container-fluid">
+                    <div className="container-fluid" style={{ maxWidth: '100%' }}>
                         {children}
                     </div>
                 </div>
