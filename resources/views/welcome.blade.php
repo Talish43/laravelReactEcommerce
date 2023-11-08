@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 <body>
-
+@vite('resources/css/app.css')
 <div id="root"></div>
 @viteReactRefresh
 @vite('resources/js/app.js')

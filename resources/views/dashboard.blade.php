@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('/assets/backend/assets/css/styles.min.css') }}" />
 </head>
 <body>
+@vite('resources/css/app.css')
 <div id="root"></div>
 @viteReactRefresh
 @vite('resources/js/backendApp.js')

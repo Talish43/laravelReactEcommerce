@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             {/*  Header Start */}
-            <header className="app-header">
+            <header className="app-header app-black-header">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <ul className="navbar-nav">
                         <li className="nav-item d-block d-xl-none">
@@ -15,8 +15,7 @@ function Header() {
                     </ul>
                     <div className="navbar-collapse justify-content-end px-0" id="navbarNav">
                         <ul className="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                            <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" className="btn btn-primary">Download Free</a>
-                            <li className="nav-item dropdown">
+                           <li className="nav-item dropdown">
                                 <a className="nav-link nav-icon-hover" href="#" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="/assets/backend/assets/images/profile/user-1.jpg" alt="" width={35} height={35} className="rounded-circle" />
                                 </a>
