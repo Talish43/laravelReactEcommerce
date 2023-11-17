@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from "./Components/Sidebar.jsx";
 import Header from "./Components/Header.jsx";
+import Footer from "./Components/Footer.jsx";
 function Wrapper({children}) {
     return (
         <>
@@ -12,6 +13,7 @@ function Wrapper({children}) {
                     <div className="container-fluid" style={{ maxWidth: '100%' }}>
                         {children}
                     </div>
+                    <Footer/>
                 </div>
             </div>
         </>
